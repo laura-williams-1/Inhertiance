@@ -52,4 +52,19 @@ public class Vehicle {
         this.model = model;
     }
 
+    //Accessors
+
+    public int getNumOfDoors(){
+        return this.numOfDoors;
+    }
+    public int getNumOfWheels(){
+        return this.numOfWheels;
+    }
+    public double getLoadCapacity(){
+        return this.loadCapacity;
+    }
+    public String getModel(){
+        return this.model;
+    }
+
 }
