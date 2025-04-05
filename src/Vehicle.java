@@ -1,5 +1,5 @@
 public class Vehicle {
-    private int numOfDoor;
+    private int numOfDoors;
     private int numOfWheels;
     private double loadCapacity;
     private String model;
@@ -7,8 +7,8 @@ public class Vehicle {
     public Vehicle(){
         this(4,4,1000,"Unknown");
     }
-    public Vehicle(int numOfDoor, int numOfWheels, double loadCapacity, String model){
-        this.numOfDoor = numOfDoor;
+    public Vehicle(int numOfDoors, int numOfWheels, double loadCapacity, String model){
+        this.numOfDoors = numOfDoors;
         this.numOfWheels = numOfWheels;
         this.loadCapacity = loadCapacity;
         this.model = model;
@@ -16,6 +16,10 @@ public class Vehicle {
 
     public void start(){
         System.out.println("Vehicle started");
+    }
+
+    public void setNumOfDoor(int numOfDoors){
+        this.numOfDoors = numOfDoors;
     }
 
 }
