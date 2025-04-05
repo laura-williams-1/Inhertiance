@@ -19,15 +19,35 @@ public class Vehicle {
     }
 
     //setters
+
+    /**
+     *
+     * @param numOfDoors, @param numOfDoors the number of doors for this vehicle
+     */
     public void setNumOfDoor(int numOfDoors){
         this.numOfDoors = numOfDoors;
     }
+
+    /**
+     *
+     * @param numOfWheels the num of wheels in a vehicle
+     */
     public void setNumOfWheels(int numOfWheels){
         this.numOfWheels = numOfWheels;
     }
+
+    /**
+     *
+     * @param loadCapacity max load capacity for a car
+     */
     public void setLoadCapacity(double loadCapacity){
         this.loadCapacity = loadCapacity;
     }
+
+    /**
+     *
+     * @param model the name of the model of the vehicle
+     */
     public void setModel(String model){
         this.model = model;
     }
