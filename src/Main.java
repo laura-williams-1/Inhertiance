@@ -5,6 +5,9 @@ public class Main {
 
        Car mycar = new Car();
        mycar.start();
+
+       Vehicle v = new Vehicle();
+
     }
 
 }
