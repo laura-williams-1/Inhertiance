@@ -54,16 +54,34 @@ public class Vehicle {
 
     //Accessors
 
-
+    /**
+     *
+     * @return the number of doors on vehicle
+     */
     public int getNumOfDoors(){
         return this.numOfDoors;
     }
+
+    /**
+     *
+     * @return the number of wheels on vehicle
+     */
     public int getNumOfWheels(){
         return this.numOfWheels;
     }
+
+    /**
+     *
+     * @return load capacity of vehicle
+     */
     public double getLoadCapacity(){
         return this.loadCapacity;
     }
+
+    /**
+     *
+     * @return string value of model of vehicle
+     */
     public String getModel(){
         return this.model;
     }
