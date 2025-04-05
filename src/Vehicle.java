@@ -18,8 +18,18 @@ public class Vehicle {
         System.out.println("Vehicle started");
     }
 
+    //setters
     public void setNumOfDoor(int numOfDoors){
         this.numOfDoors = numOfDoors;
+    }
+    public void setNumOfWheels(int numOfWheels){
+        this.numOfWheels = numOfWheels;
+    }
+    public void setLoadCapacity(double loadCapacity){
+        this.loadCapacity = loadCapacity;
+    }
+    public void setModel(String model){
+        this.model = model;
     }
 
 }
