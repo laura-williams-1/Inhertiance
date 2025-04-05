@@ -24,7 +24,7 @@ public class Vehicle {
      *
      * @param numOfDoors, @param numOfDoors the number of doors for this vehicle
      */
-    public void setNumOfDoor(int numOfDoors){
+    public void setNumOfDoors(int numOfDoors){
         this.numOfDoors = numOfDoors;
     }
 
@@ -53,6 +53,7 @@ public class Vehicle {
     }
 
     //Accessors
+
 
     public int getNumOfDoors(){
         return this.numOfDoors;
