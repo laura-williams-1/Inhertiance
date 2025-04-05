@@ -86,4 +86,13 @@ public class Vehicle {
         return this.model;
     }
 
+    @Override
+    public String toString() {
+        return "Vehicle{" +
+                "numOfDoors=" + numOfDoors +
+                ", numOfWheels=" + numOfWheels +
+                ", loadCapacity=" + loadCapacity +
+                ", model='" + model + '\'' +
+                '}';
+    }
 }
